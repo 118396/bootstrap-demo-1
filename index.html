@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- row 有一个 -15px 的margin 左右会各宽15px-->
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+            <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6">.col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>h1. Bootstrap heading <small>Secondary text</small></h1>
+                <h2>h2. Bootstrap heading <small>Secondary text</small></h2>
+                <h3>h3. Bootstrap heading <small>Secondary text</small></h3>
+                <h4>h4. Bootstrap heading <small>Secondary text</small></h4>
+                <h5>h5. Bootstrap heading <small>Secondary text</small></h5>
+                <h6>h6. Bootstrap heading <small>Secondary text</small></h6>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Table heading</th>
+                            <th>Table heading</th>
+                            <th>Table heading</th>
+                            <th>Table heading</th>
+                            <th>Table heading</th>
+                            <th>Table heading</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                            <td>Table cell</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="weiss">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="exampleInputName2">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail2">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
+                                placeholder="jane.doe@example.com">
+                        </div>
+                        <button type="submit" class="btn btn-default">Send invitation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col-md-2">
+                <div style="padding:10px 0 ;">
+                    <button type="button" class="btn btn-default">
+                        <span class="glyphicon glyphicon-grain"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-9 col-md-offset-1">
+                <div class="row" style="padding:10px 0 ;">
+                    <div class="col-md-6">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Dropdown
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class=" col-md-5">.col-md-5</div>
+            <div class="col-md-6 col-md-offset-1">.col-md-6</div>
+        </div>
+        <div class="row">
+            <div class="col-md-9 col-md-offset-3">.col-md-9</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
